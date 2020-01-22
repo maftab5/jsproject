@@ -1,0 +1,175 @@
+/* --------------- home page banner and form area start ------------------------ */
+#staticbanner{
+    
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/interiors/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    
+}
+
+#banner .layer {
+    background-color: rgba(0, 0, 10, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.abouthead{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 60px;
+    padding-top: 150px;
+    text-transform:capitalize;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(0,0,0, 0.3);
+}
+
+.searchhead {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border: 0px;
+}
+
+#aboutcontainer, #contactcontainer{
+	padding: 20px 20px;
+}
+
+#questions h1{
+
+	font-weight:600;
+	font-size: 18px;
+	line-height:24px;
+    color: #c4942e;
+}
+
+#questions h4{
+	font-weight: 600;
+	line-height:40px;
+    cursor: pointer;
+	
+}
+#contactcontainer h2{
+    
+    font-size: 18px;
+    font-weight: 600;
+    color: #c4942e;
+}
+
+#contactcontainer ul{
+    
+    float: left;
+    margin-left: 0px;
+    padding-left:0px; 
+    
+}
+
+#contactcontainer li{
+    
+    list-style: none;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 14px;
+    width:100%;
+    
+}
+#contactcontainer li span{
+    
+   font-weight: 600;
+}
+
+#contactform input, textarea{
+    
+    font-size: .7em;
+    font-weight: 400;
+    width: 99%;
+    line-height: 20px;
+    padding-left: 6px;
+    
+}
+
+#contactform input[type='checkbox']{
+
+    width:30px !important;
+    
+}
+
+#contactform input[type='submit']{
+
+    width:160px !important;
+    font-size: .9em;
+    font-weight: 600;
+    
+}
+
+#contactform textarea::-webkit-input-placeholder {
+    font-size: .7em;
+    font-weight: 400;
+    width: 15em;
+}
+
+#contactform textarea:-moz-placeholder { /* Firefox 18- */
+    font-size: .7em;
+    font-weight: 400;
+    width: 15em;
+}
+
+#contactform textarea::-moz-placeholder {  /* Firefox 19+ */
+    font-size: .7em;
+    font-weight: 400;
+    width: 15em;
+}
+
+#contactform textarea:-ms-input-placeholder {
+    font-size: .7em;
+    font-weight: 400;
+    width: 15em;
+}
+
+#questions h4 { background: url(../images/plus.png) no-repeat left center; padding-left:20px;}
+#questions h4.minus { background: url(../images/minus.png) no-repeat left center;  padding-left:20px;}
+/*div { display: none; }*/
+
+#error-message{
+    color:#ff0000 !important;
+    font-size:.8em;
+    
+}
+.green{
+    color:green;
+    
+}
+
+
+@media only screen and (max-width:768px){
+
+       
+		#searchright{
+			display:none;
+		}
+
+
+
+
+}
+
+
+
+/* --------------- home page banner and form area end ------------------------ */
+

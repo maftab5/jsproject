@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	
+    <link type="text/css" rel="stylesheet" href="css/rent.css">
+	<link type="text/css" rel="stylesheet" href="css/custom.css">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <script src="js/rent.js"></script>
+
+    <title>
+        Real Estate
+    </title>
+</head>
+
+<body>
+    <div id="wrapper">
+                 <header>
+        
+        <nav class="navbar navbar-default">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.jpg" width="162" height="60" alt="logo" class="img-responsive">
+            </a>
+            <div class="">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li class="active"><a href="rent.html">Rent Property</a></li>
+                        <!--li><a href="membership.html">Membership</a></li-->
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+		</header>
+        <main>
+            <div id="rentbanner">
+                <div class="layer">
+                        <div id="renthead">
+                           <h1>Kitchener top Property Site</h1>
+                            <h3>200+ Homes Added Everyday</h3>
+                        </div>
+                        <div id="formfields">
+                            <form action="rent-search.html" method="get" name="formsearch" id="formsearch">
+                                <span id="renterror"></span>
+                                <div id="rentfield" class="rentform">
+                                    <input type="text" name="searchlocation" id="searchlocation" placeholder="Enter location"/>
+                                </div>
+                                <div id="budget" class="rentform">
+                                    <input type="text" name="searchtype" id="searchtype" placeholder="Property Type"/>
+                                </div>
+                                <div id="searchb" class="rentform">
+                                    <input type="text" name="searchbudget" id="searchbudget" placeholder="Budget"/>
+                                </div>
+                                <div id="type" class="rentform">
+                                    <input type="submit" name="submit" id="submit" value="Submit"/>
+                                </div>
+                                
+                            </form>
+                            
+                        </div>
+                </div>
+            </div>
+
+            <!-- Insert your code here -->
+
+            <div id="rentfloat">
+            
+                <ul id="slider">
+                    
+                <li class="floatitem">
+                    Dedicated Support for All
+                    <span><a href="#">Get Assistance <i class="right"></i></a></span>
+                </li>
+                
+                <li class="floatitem">
+                    Get the Value of Any Property
+                    <span><a href="#">Calculate Now <i class="right"></i></a></span>
+                </li>
+                
+                <li class="floatitem">
+                    Queries, Ask Questions
+                    <span><a href="#">Join Forum <i class="right"></i></a> </span>
+                </li>
+                
+                <li class="floatitem">
+                    Home Loans at Best Rates
+                    <span><a href="#">Apply Now <i class="right"></i></a></span>
+                </li>
+
+                <li class="floatitem">
+                    Queries, Ask Questions
+                    <span><a href="#">Join Forum <i class="right"></i></a> </span>
+                </li>
+                
+                <li class="floatitem">
+                    Home Loans at Best Rates
+                    <span><a href="#">Apply Now <i class="right"></i></a></span>
+                </li>
+                
+                <li class="floatitem">
+                    Dedicated Support for All
+                    <span><a href="#">Get Assistance <i class="right"></i></a></span>
+                </li>
+                
+                <li class="floatitem">
+                    Get the Value of Any Property
+                    <span><a href="#">Calculate Now <i class="right"></i></a></span>
+                </li>
+                
+                </ul>
+                
+            </div>
+            
+			<div id="eventblock">
+				
+				<div class="col-lg-9 col-md-9  col-sm-9" id="leftevent">
+					<h3>Popular Events</h3>
+                    <div id="event">
+                        <div class="col-lg-4 col-md-4  col-sm-4" >
+                            <div class="trow">
+                                <span>Interview</span>
+                                <h2>Commercial properties give better rental returns: Ashish Arora</h2>
+                                <span class="date">26 April 2018</span>
+                            </div>
+                            <div class="brow">
+                                <span>Expert</span>
+                                <h4>Ashish Arora, E.J. Kurup</h4>
+                                <span class="post">Head - Distribution, Viridian RED</span>
+                                <input type="button" name="button" value="Know More" id="button1">
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+				</div>
+
+				<div class="col-lg-3 col-md-3 col-sm-3" id="rightevent">
+					<h3>Latest News</h3>
+					<div class="col-lg-12 col-md-12 news">
+						<img src="images/img.jpg" alt="image" width="95" height="80">
+						<p>SC sends three directors to police custody<p>
+						<span>October 11, 2018</span>
+					</div>
+					<div class="col-lg-12 col-md-12 news">
+						<img src="images/img2.jpg" alt="image" width="95" height="80">
+						<p>SC sends three directors to police custody<p>
+						<span>October 11, 2018</span>
+					</div>
+					<div class="col-lg-12 col-md-12 news">
+						<img src="images/img.jpg" alt="image" width="95" height="80">
+						<p>SC sends three directors to police custody<p>
+						<span>October 11, 2018</span>
+					</div>
+
+					
+				</div>
+
+
+			</div>
+
+			<div id="pricetrend">
+				
+                <h1>Sale Price Trend in Kitchener</h1>
+                
+			</div>
+
+<!-- Tabs HTML code. -->
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1" class="ptype">Flats</a></li>
+                <li><a href="#tabs-2" class="ptype">Residential Plots</a></li>
+                <li><a href="#tabs-3" class="ptype">Residential House</a></li>
+            </ul>
+            <div id="tabs-1">
+					<table id="ptrendtable">
+						<thead><tr>
+							<th>Locality</th>
+							<th class="center">Price Range (Sq-ft)</th>
+							<th class="center">Average Price (Sq-ft)</th>
+							<th class="center">Oct 2018 vs Jul 2018</th>
+							<th class="center">View Trends</th>
+                            </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Doon South</td>
+								<td class="center">7,250 - 9,487</td>
+								<td class="center">8,369</td>
+								<td class="decline center">1%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+							<tr>
+								<td>Williamsburg</td>
+								<td class="center">10,233 - 15,422</td>
+								<td class="center">13,174</td>
+								<td class="success center">4%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Highland West</td>
+								<td class="center">10,342 - 16,006</td>
+								<td class="center">12,827</td>
+								<td  class="success center">0.2%</td>
+								<td  class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Grand River South</td>
+								<td class="center">7,427 - 12,097</td>
+								<td class="center">27,250</td>
+								<td class="center">-</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+            </div>
+            <div id="tabs-2">
+                			
+					<table id="ptrendtable">
+                        
+						<thead><tr>
+							<th>Locality</th>
+							<th class="center">Price Range (Sq-ft)</th>
+							<th class="center">Average Price (Sq-ft)</th>
+							<th class="center">Oct 2018 vs Jul 2018</th>
+							<th class="center">View Trends</th>
+                            </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Doon South</td>
+								<td class="center">1,250 - 16,487</td>
+								<td class="center">26,369</td>
+								<td class="decline center">6%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+							<tr>
+								<td>Williamsburg</td>
+								<td class="center">17,233 - 19,422</td>
+								<td class="center">23,174</td>
+								<td class="success center">6%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Highland West</td>
+								<td class="center">856,342 - 16,006</td>
+								<td class="center">12,827</td>
+								<td  class="success center">86.2%</td>
+								<td  class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Grand River South</td>
+								<td class="center">3363,427 - 12,097</td>
+								<td class="center">27,250</td>
+								<td class="center">-</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+          </div>
+            <div id="tabs-3">
+                			
+					<table id="ptrendtable">
+
+						<thead><tr>
+							<th>Locality</th>
+							<th class="center">Price Range (Sq-ft)</th>
+							<th class="center">Average Price (Sq-ft)</th>
+							<th class="center">Oct 2018 vs Jul 2018</th>
+							<th class="center">View Trends</th>
+                            </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Doon South</td>
+								<td class="center">2,250 - 7,487</td>
+								<td class="center">4,378</td>
+								<td class="decline center">2%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+							<tr>
+								<td>Williamsburg</td>
+								<td class="center">10,233 - 15,422</td>
+								<td class="center">13,174</td>
+								<td class="success center">6%</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Highland West</td>
+								<td class="center">12,382 - 16,006</td>
+								<td class="center">17,327</td>
+								<td  class="success center">12.8%</td>
+								<td  class="center"><a href="#">View Trends</a></td>
+							</tr>
+
+							<tr>
+								<td>Grand River South</td>
+								<td class="center">2,427 - 19,097</td>
+								<td class="center">17,250</td>
+								<td class="center">-</td>
+								<td class="center"><a href="#">View Trends</a></td>
+							</tr>
+						</tbody>
+					</table>
+
+            </div>
+            
+        </div>
+        <!-- End Tabs HTML code. -->
+			
+            <!-- Insert your code here -->
+        </main>
+        <footer>
+            <div id="footerwidget" class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside id="contact-info-widget-1" class="widget">
+                        <h3 class="widget-title">Newsletter</h3>
+
+                        <form id="news" method="post" action="#news">
+                            <p>
+                                <label>Email <span>*</span></label>
+
+                                <input type="text" name="wysija[user][email]" class="wysija-input validate[required,custom[email]]" title="Email" value="">
+                            </p>
+
+                            <input type="submit" value="Subscribe!">
+
+
+                        </form>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-2  col-sm-6">
+                    <aside id="contact-info-widget-2" class="widget">
+                        <h3 class="widget-title">Latest Tweets</h3>
+                        <div class="tweets-box">
+                            <ul>
+                                <li><span class="status"><i class="fa fa-twitter"></i> This example of converting Fahrenheit to Celsius in JavaScript will helps you to learn and understand about JavaScr… <a href="https://t.co/2zNRdIwgQP">https://t.co/2zNRdIwgQP</a></span><span class="meta"> <a href="http://twitter.com/uniquescriptz/status/1065791438783434752">02:17 AM Nov 23rd</a></span></li>
+                                <li><span class="status"><i class="fa fa-twitter"></i> Some cool javascript program to learn and get hands on experience after going through these tutorials available at… <a href="https://t.co/ann0PxPrdh">https://t.co/ann0PxPrdh</a></span><span class="meta"> <a href="http://twitter.com/uniquescriptz/status/1063189128492302341">09:56 PM Nov 15th</a></span></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3  col-sm-6">
+                    <aside id="contact-info-widget-3" class="widget">
+                        <h3 class="widget-title">Contact Us</h3>
+                        <div class="contact-info">
+                            <ul class="contact-details list list-icons">
+                                <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> <span>299 Doon Valley Dr, Kitchener, ON N2G 4M4</span></li>
+                                <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <span><a href="mailto:support@realestate.com">support@realestate.com</a></span></li>
+                                <li><i class="fa fa-clock-o"></i> <strong>Working Days/Hours:</strong> <span>Mon - Sun / 10:00 AM - 6:00 PM</span></li>
+                            </ul>
+                            <p><strong>Skype ID</strong>: <a href="skype:realestate?chat">RealEstate</a></p>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3  col-sm-6">
+                    <aside id="contact-info-widget-4" class="widget">
+                        <h3 class="widget-title">Follow Us</h3>
+                        <div class="share-links">
+                            <a href="https://twitter.com/realestate" rel="nofollow" target="_blank" title="" class="fa fa-twitter" ></a>
+                            <a href="https://www.youtube.com/channel/realestate" rel="nofollow" target="_blank" title="" class="fa fa-youtube"></a>
+                            <a href="skype:realestate?chat" rel="nofollow" target="_blank" title="" class="fa fa-skype"></a>
+                            <a href="https://plus.google.com/realestate" rel="nofollow" target="_blank" title="" class="fa fa-google-plus" ></a>
+                        </div>
+
+                    </aside>
+                </div>
+            </div>
+            <div class="copy">
+                Pankaj Bains | Mohammad Aftab | Jasvinder Kaur | Chan<br />
+
+                All trademarks, logos and names are properties of their respective owners. All Rights Reserved. &#169; 2018 Real Estate. All rights reserved.
+				<div class="incitation">
+                The membership contents have retrieved Dec 2, 2018, from
+       https://www.nar.realtor/membership/how-to-join-nar<br>
+                The images have retrieved Dec 2, 2018, from
+       https://www.pexels.com
+            </div>
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>

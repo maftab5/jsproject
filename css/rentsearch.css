@@ -1,0 +1,561 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --------------- head area start ------------------------ */
+header, nav, main, footer, aside { display: block; }
+
+
+body{
+	margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1349px;
+    background-color: white;
+	font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat:repeat;
+	font-size:16px;
+	color: #474b54;
+	font-size: 14px;
+	
+}
+
+
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+/* --------------- head area end ------------------------ */
+
+
+
+main{
+    height: auto;
+}
+
+/* --------------- Rent Search page top bar start ------------------------ */
+
+
+#searchbar{
+	
+	background-color:#d7d7d7;
+	height:50px;
+	padding:10px;
+}
+
+        .searchdivform{
+            float: left;
+            display: inline-block;
+        }
+    
+
+
+
+        .searchdiv{
+            float: right;
+            display: inline-block;
+			position: absolute;
+			clear:both;
+        }
+    
+
+.searchdivform span{
+	background-color:#e9ae52;
+	color:#fff;
+	padding:8px 40px;
+	margin:0;
+}
+
+.searchdivform input[type=text]{
+	background-color:#fff;
+	color:#333333;
+	padding:6px 10px;
+	margin:0;
+	border:1px solid #ccc;
+	margin: 0px -10px;
+	width:280px;
+}
+
+.searchdivform input[type=button]{
+	background-color:#683730;
+	color:#fff;
+	padding:6px 10px;
+	margin:0;
+	border:0;
+}
+
+#searchlink ul{
+   width: 100%;
+}
+
+
+#searchlink li{
+	width:100px;
+	display:inline-block;
+	text-align:center;
+	margin-left:40px;
+}
+
+#searchlink a{
+	color: #000;
+	font-weight: 600;
+	text-decoration:none;
+}
+
+#searchlink a:hover{
+	color: #000;
+	font-weight: 600;
+	text-decoration:underline;
+}
+
+
+#breadcrumb{
+	width:98%;
+	margin: auto;
+	line-height:40px;
+	color:#b4b4b4;
+	font-size:.9em;
+
+	
+}
+#breadcrumb a{
+	color: #b4b4b4;
+	text-decoration:none;
+}
+
+
+
+/*---------------------Rent Search page top bar Ends----------------*/
+
+/*---------------- Rent search result area start---------------*/
+
+
+#searchresult{
+	width:98%;
+	margin:auto;	
+	margin-top:20px;
+}
+
+#searchresult a{
+	text-decoration:none;
+	color:#333333;
+	
+}
+
+.resulttabs{
+	
+	display:inline-block;
+	padding: 10px 60px;
+	margin:0 20px;
+	height:50px;
+	font-weight:600;
+	
+}
+
+.selected{
+	border-top:2px solid #683730;
+	border-left:1px solid #d7d7d7;
+	border-right:1px solid #d7d7d7;
+	background-color:#fff;
+}
+
+.searchterm{
+	background-color:#fff;
+	line-height:35px;
+	padding:10px 20px;
+	margin:-2px 0;
+	font-weight:600;
+}
+
+#searchleft, #searchright{
+	padding-top:40px;
+}
+
+.searchitem{
+	background-color:#fff;
+	padding:15px 0;
+	box-shadow:3px 3px 6px #d7d7d7;
+	display:inline-block;
+	margin-bottom:20px;
+}
+
+.itemimage span{
+	display:block;
+	float:left;
+	margin-top:25px;
+	font-size:.8em;
+	color:#bababa;
+	
+}
+
+.itemdetails{
+	padding:0px;
+}
+
+.itemdetails h2{
+	font-size:1.1em;
+	font-weight:600;
+	margin-top:0px;
+}
+.itemdetails ul{
+	padding:0px;
+	margin:0px;
+}
+.itemdetails li{
+	display:inline-block;
+	margin:0px -2px;
+	width:25%;
+	padding:10px;
+	border-right:1px solid #d7d7d7;
+	background-color:#eeeeee;
+	font-size:.7em;
+	text-transform: uppercase;
+	
+	}
+
+	.itemdetails li:last-of-type{
+	
+	border-right:0px solid #d7d7d7; !important;
+	
+	
+	}
+	
+.itemdetails span{
+	display:block;
+	margin:0px;
+	font-weight:600;
+	margin-top:8px;
+	
+}
+
+.itemdetails p{
+	font-size:.8em;
+	margin:8px 0 18px 0;
+	
+}
+
+.itemdetails a{
+	background-color:#e9ae52;
+	font-size:.9em;
+	padding:10px 20px;
+	color:#fff;
+	font-weight:600;
+	border-radius:5px;
+	
+}
+
+.itemdetails a:hover{
+	background-color:#bf5a3c;
+	font-size:.9em;
+	padding:10px 20px;
+	color:#fff;
+	font-weight:600;
+	border-radius:5px;
+	
+}
+/*-----------------Rent search result area end-----------------*/
+
+
+
+/* --------------- Footer area start ------------------------ */
+
+footer{
+    
+    text-align: center;
+    color: #000;
+    
+}
+
+#footerwidget{
+    clear: both;
+    height: auto;
+    background-color: #013938;
+    padding: 0 20px;
+    text-align: left;
+    font-size: .9em;
+    height: auto;
+    margin: auto;
+	 padding-bottom: 20px;
+}
+
+.widget{
+    position: relative;
+    width: 100%;
+    color: #e7e7e7;
+    font-weight: normal;
+    font-size: .9em;
+}
+
+.widget label{
+    width: 100%;
+   
+}
+
+.widget .widget-title{
+    
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.6em;
+    color: #fff;
+    text-align: left;
+
+}
+
+.widget input[type="text"]{
+    width: 100%;
+    height:30px;
+    border-radius: 7px;
+    border:1px solid #fff;
+    color: #000;
+    font-size: 1.3em;
+    padding: 8px;
+    
+}
+
+.widget input[type="submit"]{
+    width: 30%;
+    height:30px;
+    border-radius: 4px;
+    border:1px solid #c5952f;
+    color: #fff;
+    background-color: #D0A23E;
+    font-size: 1.3em;
+    
+    
+}
+
+.contact-info, .tweets-box{
+    padding: 0 0 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info strong{
+    color: #c19333;
+}
+
+.contact-info a, .contact-info a:hover, .tweets-box a, .tweets-box a:hover{
+    color: #D0A23E;
+}
+
+.list li, .tweets-box li{
+    list-style: none;
+    margin-left:-40px;
+    padding-top: 10px;
+}
+
+.list li .fa{
+    color: #D0A23E;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.share-links, .share-links a{
+    
+    font-size: 1.4em;
+    margin: 0 15px 0 0;
+    color: #e7e7e7;
+    
+}
+
+.share-links a:hover{
+    
+    text-decoration: none;
+    color: #D0A23E;
+    
+}
+
+.copy{
+    
+    width: 100%;
+    font-size: .8em;
+    font-family: arial;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #002120;
+    color: #fff;
+    
+}
+
+
+#mouseposition{
+    
+    background-color: #fff;
+    width: 150px;
+    clear: both;
+    color: #D0A23E;
+    font-weight: 600;
+    position:fixed;
+    float: right;
+    bottom:0px;
+    left:20px;
+}
+
+#dialog .ui-draggable .ui-resizable{
+    
+    width: 500px !important;
+    height: 500px !important;
+}
+
+#dialog{
+    width: 500px !important;
+    height: 500px !important;
+}
+.ui-draggable-handle{
+    width: 500px;
+}
+
+
+/* --------------- Footer area end ------------------------ */
+
+@media only screen and (max-width:1024px){
+    
+        #searchbar{
+            /*border: 1px solid #000;*/
+        }
+
+        .searchdivform{
+            float: left;
+            /*min-width: 30%;*/
+            display: inline-block;
+        }
+    
+
+        .searchdiv{
+            float: right;
+           /* min-width: 70%;*/
+            display: inline-block;
+			position: absolute;
+			clear:both;
+        }
+
+
+        .searchdivform span{
+            background-color:#e9ae52;
+            color:#fff;
+            padding:8px 20px;
+            margin:0;
+        }
+
+        .searchdivform input[type=text]{
+            background-color:#fff;
+            color:#333333;
+            padding:6px 10px;
+            margin:0;
+            border:1px solid #ccc;
+            margin: 0px -10px;
+            width:50%;
+        }
+
+        .searchdivform input[type=button]{
+            background-color:#683730;
+            color:#fff;
+            padding:6px 10px;
+            margin:0;
+            border:0;
+        }
+
+        #searchlink ul{
+            width: 100%;
+         }
+
+        #searchlink li{
+            width:auto;
+            line-height: 20px
+            display:inline;
+            text-align:center;
+            margin:0px 0px;
+            padding:0 30px;
+            font-size: .9em;
+        }
+
+        #searchlink a{
+            color: #000;
+            font-weight: 600;
+        }
+       #searchlink a:hover{
+            
+            text-decoration:underline !important;
+        }
+   
+ 
+}
+
+
+@media only screen and (max-width:768px){
+
+       .searchdivform{
+            float: left;
+            min-width: 100%;
+            display: inline-block;
+        }
+   
+		#searchlink, #searchright{
+			display:none;
+		}
+
+
+        .searchdivform span{
+            background-color:#e9ae52;
+            color:#fff;
+            padding:8px 20px;
+            margin:0;
+        }
+
+        .searchdivform input[type=text]{
+            background-color:#fff;
+            color:#333333;
+            padding:6px 10px;
+            margin:0;
+            border:1px solid #ccc;
+            margin: 0px -10px;
+            width:60%;
+        }
+
+        .searchdivform input[type=button]{
+            background-color:#683730;
+            color:#fff;
+            padding:6px 10px;
+            margin:0;
+            border:0;
+        }
+		
+
+		.itemdetails ul{
+			padding:0px;
+			margin:0px;
+		}
+
+		.itemdetails li{
+			display:inline-block;
+			margin:0px -2px;
+			width:25%;
+			padding:10px;
+			border-right:1px solid #d7d7d7;
+			background-color:#eeeeee;
+			font-size:.6em;
+			text-transform: uppercase;
+			
+		}
+
+		.resulttabs{
+			
+			display:inline-block;
+			padding: 10px 30px;
+			margin:0 10px;
+			height:50px;
+			font-weight:600;
+			
+		}
+
+
+
+}

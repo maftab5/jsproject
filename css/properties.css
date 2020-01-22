@@ -1,0 +1,28 @@
+#banner{
+    
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/interiors/banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    
+}
+.figure.effect-ruby:hover img {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.searchList{
+    text-align: center;
+    background-color: #2b6362;
+    max-width: 97%;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}

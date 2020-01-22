@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --------------- head area start ------------------------ */
+header, nav, main, footer, aside { display: block; }
+
+body{
+	margin-left: auto !important;
+    margin-right: auto !important;
+    width: 96%;
+    max-width: 1349px;
+    background-color: white;
+    color: black;
+	font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat:repeat;
+	
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+/* --------------- head area end ------------------------ */
+
+/* --------------- nav area start ------------------------ 
+
+nav{
+	float:right;
+	margin: -40px auto;
+    clear: both;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+    padding: 0px 10px;
+    height: 20px;
+    z-index: 1;
+    border-right: 1px dashed #ccc;
+    position: relative;
+}
+
+nav li:last-child {
+    border: 0px;
+}
+
+nav li:before {
+    
+  content: "";
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #c4942e;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    
+}
+
+nav li:hover:before{
+    
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+    
+}
+
+nav a{
+
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 20px;
+    color: #003836;
+    height:25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+
+    text-decoration: none;
+}
+ --------------- nav area end ------------------------ */
+
+
+main{
+    
+    height: auto;
+}
+
+/* --------------- home page banner and form area start ------------------------ */
+#banner{
+    
+    width: 100%;
+    height: 300px;
+    background-image: url("../images/interiors/banner4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    
+}
+#memberbanner{
+    
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/interiors/membership.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    
+}
+
+#commbanner{
+    
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/interiors/community.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+    
+}
+#banner .layer {
+    background-color: rgba(0, 0, 10, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.bannerhead{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 60px;
+    padding-top: 100px;
+    text-transform:capitalize;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(255,255,255, 0.3);
+}
+
+.searchhead {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border: 0px;
+}
+
+.searchbox{
+    
+    margin: auto;
+    margin-top: 50% !important;
+   
+}
+
+.searchbox input{
+    height: 40px;
+    width:40%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #000;
+    padding: 15px;
+    font-size: .6em !important;
+    box-shadow: 3px 3px rgba(0,0,0, 0.3);
+    
+}
+/* --------------- home page banner and form area end ------------------------ */
+
+
+
+/* --------------- Footer area start ------------------------ */
+
+footer{
+    
+    text-align: center;
+    color: #000;
+    
+}
+
+#footerwidget{
+    clear: both;
+    height: auto;
+    background-color: #013938;
+    padding: 0 20px;
+    text-align: left;
+    font-size: .9em;
+    height: auto;
+    margin: auto;
+	 padding-bottom: 20px;
+}
+
+.widget{
+    position: relative;
+    //border: 1px solid #000;
+    width: 100%;
+    color: #e7e7e7;
+    font-weight: normal;
+    font-size: .9em;
+}
+
+.widget label{
+    width: 100%;
+   
+}
+
+.widget .widget-title{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    color: #fff;
+    text-align: left;
+
+}
+
+.widget input[type="text"]{
+    width: 100%;
+    height:30px;
+    border-radius: 7px;
+    border:1px solid #fff;
+    color: #000;
+    font-size: 1.3em;
+    padding: 8px;
+    
+}
+
+.widget input[type="submit"]{
+    width: 30%;
+    height:30px;
+    border-radius: 4px;
+    border:1px solid #c5952f;
+    color: #fff;
+    background-color: #D0A23E;
+    font-size: 1.3em;
+    
+    
+}
+
+.contact-info, .tweets-box{
+    padding: 0 0 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info strong{
+    color: #c19333;
+}
+
+.contact-info a, .contact-info a:hover, .tweets-box a, .tweets-box a:hover{
+    color: #D0A23E;
+}
+
+.list li, .tweets-box li{
+    list-style: none;
+    margin-left:-40px;
+    padding-top: 10px;
+}
+
+.list li .fa{
+    color: #D0A23E;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.share-links, .share-links a{
+    
+    font-size: 1.4em;
+    margin: 0 15px 0 0;
+    color: #e7e7e7;
+    
+}
+
+.share-links a:hover{
+    
+    text-decoration: none;
+    color: #D0A23E;
+    
+}
+
+.copy{
+    
+    width: 100%;
+    font-size: .8em;
+    font-family: arial;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #002120;
+    color: #fff;
+    
+}
+
+/* --------------- Footer area end ------------------------ */

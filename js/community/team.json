@@ -1,0 +1,42 @@
+{"teammembers":[
+	{
+		"full_name": "Wilbur Wilkes",
+		"first_name": "Wilbur",
+		"image": "images/community/2/wilbur.gif",
+		"title": "VP, Head of Team",
+		"bio": "With over 24 years of investment and business advisory service experience in the Tongas, Ecuador, Canada, Botswana and the US, Agnes is the most seasoned and diversed member of the consulting team.",
+		"tag_line": "14 years of proficiency and still going strong"
+	},
+	{
+		"full_name": "Damon Dell",
+		"first_name": "Damon",
+		"image": "images/community/2/damon.gif",
+		"title": "Master Realtor",
+		"bio": "Damon is the Director of Realtor Gr. Damon creates learning materials for Real Estate. as well as consulting for customers to develop property.",
+	    "tag_line": "We call him Dr. Estate"
+	},
+	{
+		"full_name": "Herbert Huff",
+		"first_name": "Herbert",
+		"image": "images/community/2/herbert.gif",
+		"title": "Finance Director",
+		"bio": "Herbert joined Real Estate. in October 1999 as Real Estate's first Accounting Manager. As such, he has overall finance responsibility for Real Estate's operations worldwide.",
+		"tag_line": "He leads our Finance department"
+	},
+	{
+		"full_name": "Mike Masters",
+		"first_name": "Mike",
+		"image": "images/community/2/mike.gif",
+		"title": "Property Analyst",
+		"bio": "Mike serves as the Vice President of investment and analysis for Real Estate. In this role Mike oversees Real Estate's investment and corporate communications efforts worldwide.",
+		"tag_line": "Good products aren't enough. Mike makes sure they sell"
+	},
+	{
+		"full_name": "Agnes Agnew",
+		"first_name": "Agnes",
+		"image": "images/community/2/agnes.gif",
+		"title": "Lawyer",
+		"bio": "Agnes Agnew is the partner lawyer of K&J law firm, he is primarily known for being the pioneer of estate law.",
+		"tag_line": "Not only our lawyer, but also our boarder member"
+	}
+]}

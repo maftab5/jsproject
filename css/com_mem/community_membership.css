@@ -1,0 +1,248 @@
+/*------------Chan Lim-----------------*/
+
+#feedback {
+    background-color: #eeeeee;
+    margin-bottom: 3em;
+    margin: -1.4em 0em 4em 0em;
+	color:#000;
+}
+
+#feedback h2 {
+
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    
+    text-shadow: 3px 2px 5px #888;
+    padding-top: 1em;
+}
+
+#feedback p {
+    width: 90%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 1em 2em 0.5em 2em;
+	margin:0 auto;
+	
+    
+}
+
+#feedback #textarea {
+	width: 90%;
+    padding: 1em 0 1.5em 1em;
+    font-size: 1.5em;
+	margin:0 auto;
+    
+}
+
+#textarea #comments {
+    color: #5b5b5b;
+    width: 100%;
+}
+
+table caption {
+    text-align: center;
+    line-height: 2em;
+    padding-top: 10px;
+    font-family: "Source Sans Pro", Arial, Verdana;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    width: 80%;
+}
+
+#faq th {
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+}
+
+.q {color: #c3942b;}
+.a {color: #023734;}
+
+#faq td {
+    padding: 0.5em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+tr:nth-of-type(odd) { 
+    background-color: #e2e2e2;
+    color: #013938;
+	font-weight:700;.
+	font-size: 1.2em;
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeeeee;
+    margin-bottom: 0em;
+    padding: 2em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+
+#container .box1, #container .box2 {
+    width: 270px;
+    height: 270px;
+    border: 1px solid black;
+    background-color: transparent;
+	background-size: cover;
+}
+
+.box1 {
+    background: url(../../images/com_mem/infobox_a_bg.jpg) no-repeat;
+    padding: 15px 20px;
+}
+
+.box1>strong {
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+}
+
+.box1 .info {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.box1 .info>strong {
+    font-size: 14px;
+    color: #333;
+}
+
+.box1 .info>p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 36px;
+}
+
+.box2 {
+    position: relative;
+    background: url(../../images/com_mem/infobox_b_bg1.jpg) no-repeat;
+    padding: 18px 25px;
+    color: #fff;
+}
+
+.box2>strong {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.box2 .info {
+    border: 1px solid #878fb9;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.box2 .info li {
+    border-bottom: 1px solid #878fb9;
+    padding: 14px;
+    position: relative;
+}
+
+.box2 .info li strong {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.box2 .info li span {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.box2.finding {
+    background: url(../../images/com_mem/infobox_b_bg2.jpg) no-repeat;
+}
+
+.box2.finding .info {
+    border-color: #e28282;
+}
+
+.info li {
+    list-style: none;
+}
+
+artical {
+    display: block;
+}
+
+.membership h2 {
+    font-size: 1.6em;
+    
+    color: #231b18;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    font-weight: 500;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    margin: 1em 3.6em 0em;
+}
+
+.membership p {
+    margin: 1em 4.8em 2em;
+    display: block;
+    font-size: 1.2em;
+}
+
+.membership ul {
+    margin: 1em 5em 2em;
+    font-size: 1.2em;
+}
+
+.membership li {
+    padding: 0 0 1.4em 0;
+    
+}
+
+.row h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:2.4em;
+}
+
+.imgList {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+}
+
+.imgList .imgBox {
+    width: 25%;
+    height: 270px;
+    display: flex;
+}
+
+.imgBox img{
+    min-height: 100%;
+    min-width: 100%;
+    transition: transform 1.3s linear;
+}
+
+.imgBox:hover img{
+    transform: scale(1.1);
+}
+
+footer .incitation {
+    padding: 1em;
+    font-size: 0.9em;
+    }

@@ -1,0 +1,357 @@
+/*------------Chan Lim-----------------*/
+
+#feedback {
+    background-color: #C0C0C0;
+    margin: 4em 7em 4em 7em;
+}
+
+#feedback h2 {
+
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: white;
+    text-shadow: 3px 2px 5px #666;
+    padding-top: 1em;
+}
+
+#feedback #para {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 2em 0.5em 2em;
+    color: white;
+}
+
+
+#feedback #comments {
+    float: right; 
+    width: 60%;
+    margin: 0 10em 2em 0;
+    padding: 0;
+    border: 2px solid gray;
+    min-height: 15em;
+    font-size: 0.6em;
+    color: black;
+    background-color: white;
+}
+
+#comments a {
+    margin-right: 1em;
+}
+
+#feedback label {
+    float: left;
+    width: 8em;
+    margin-left: 3em;
+}
+
+#inputData {
+    float: left;
+    width: 12em;
+    margin:  0 3em 1em;
+}
+
+#feedback #question, #feedback #due_date {
+    width: 70%;
+    margin: 0 0 1em 5em;
+    padding-left: 1em;
+}
+
+/*p {
+	margin: 0;
+	padding-bottom: .5em;
+}*/
+
+#feedback #btn {
+    clear: both;
+    text-align: center;
+} 
+
+#btn #add_question, #btn #clear_questions {
+    width: 15em;
+    margin-bottom: 0.5em;
+}
+
+#btn #add_question {
+    margin-top: 1.5em;
+    margin-left: auto;
+}
+
+#btn #clear_questions {
+    margin-right: auto;
+}
+
+#feedback .clear {
+    clear: both;
+}
+
+#feedback .delete {
+    width: 5em;
+}
+
+#faq {
+    margin: 10% 5%;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 1.5em;
+	font-size: 200%;
+}
+#faq h3 {
+	font-size: 130%;
+    margin: 0 5em;
+	padding: .25em 0 .25em 25px;
+	background: url(../../images/community/plus.png) no-repeat left center;
+	cursor: pointer !important;
+	color: blue !important;
+}
+#faq h3.minus {
+	background: url(../../images/community/minus.png) no-repeat left center;
+	cursor: pointer;
+}
+h3 a {
+    color: black;
+    text-decoration: none; 
+}
+h3 a:focus, a:hover {
+	color: blue;
+}
+#faq .ans {
+    margin: 0 9em;
+    font-size: 100%;
+	display: none;
+}
+
+#membership #container {
+    float: right;
+    margin: 0em 10em 2em 2em;
+}
+
+#membership h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#membership p {
+    font-size: 130%;
+    margin-left: 8em;
+    margin-right: 6em;
+}
+
+#membership #p1 {
+    font-size: 130%;
+    margin-top: 1em;
+    margin-left: 8em;
+}
+
+#slides img {
+    height: 270px;
+}
+
+#slides img {
+    display: none;
+}
+
+#consult {
+    clear:both;
+    background-color: #C0C0C0;
+    margin: 5em 7em 5em 7em;
+    //text-align: center;
+}
+
+#register h2 {
+
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: white;
+    text-shadow: 3px 2px 5px #666;
+    padding-top: 1em;
+}
+
+#register p {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 1em 2em 0.5em 2em;
+    color: white;
+}
+
+#register fieldset {
+    margin: 0 4em;
+}
+
+#register fieldset label {
+    margin-left: 10em;
+}
+
+fieldset input {
+    width: 15em;
+    margin-bottom: 0.5em;
+}
+
+fieldset span {
+    color: red;
+}
+
+#apply {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#apply #submit {
+    width: 10em;
+    margin-bottom: 3em;
+}
+
+
+#commission h2 {
+
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: white;
+    text-shadow: 3px 2px 5px #666;
+    padding-top: 1em;
+}
+
+#commission p {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 1.5em 0;
+    padding: 0 2em;
+    color: white;
+}
+
+#commission label {
+    margin-left: 8em;
+    margin-bottom: 0.7em;
+}
+
+#commission #type {
+    max-width: 8em;
+}
+
+#commission input {
+    max-width: 8em;
+    padding-left: 1em;
+}
+
+#result {
+    text-align: center;
+}
+
+#result #calculate {
+    width: 10em;
+    margin: 0 0 2em 0;
+}
+
+#consultant {
+    //background-color: #C0C0C0;
+    margin: 7em 7em 7em 11em;
+    //text-align: center;
+}
+
+#consultant h2 {
+	text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.imgList {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgList .imgBox {
+    width: 20%;
+    display: flex;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description .detail {
+    width: 20%;
+    //text-align: center;
+    //margin-left: -1em;
+}
+
+.detail .name {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.detail .title {
+    font-size: 0.8em;
+}
+
+#sample {
+    /*margin: 4em 7em 4em 7em;*/
+    padding: 1em 1em 0.5em 1em;
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+#sample h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: white;
+    text-shadow: 3px 2px 5px #666;
+    margin-bottom: 1em;
+}
+
+#sample img {
+    width: 100%;
+}
+
+#sample input {
+    width: 9em;
+}
+
+#flickrSearch {
+    margin: 4em 7em 4em 7em;
+    padding: 1em 1em 0.5em 1em;
+    text-align: center;
+    background-color: #C0C0C0;
+}
+
+#flickrSearch h2 {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.0em;
+    color: white;
+    text-shadow: 3px 2px 5px #666;
+    margin-bottom: 1em;
+}
+
+#flickrSearch #images {
+    margin: 2em;
+}
+
+#history {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#history #bw, #history #fw {
+    width: 7em;
+}
+
+footer .incitation {
+    padding: 1em;
+    font-size: 0.8em;
+}

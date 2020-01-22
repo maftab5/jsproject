@@ -1,0 +1,858 @@
+* {
+  box-sizing: border-box;
+}
+
+/* --------------- head area start ------------------------ */
+header, nav, main, footer, aside { display: block; }
+
+
+body{
+	margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 1349px;
+    background-color: white;
+	font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat:repeat;
+	font-size:16px;
+	color: #474b54;
+	font-size: 14px;
+	
+}
+
+
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eeeeee;
+}
+
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+/* --------------- head area end ------------------------ */
+
+/* --------------- nav area start ------------------------ 
+
+nav{
+	float:right;
+	margin: -40px auto;
+    clear: both;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+    padding: 0px 10px;
+    height: 20px;
+    z-index: 1;
+    border-right: 1px dashed #ccc;
+    position: relative;
+}
+
+nav li:last-child {
+    border: 0px;
+}
+
+nav li:before {
+    
+  content: "";
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #c4942e;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+    
+}
+
+nav li:hover:before{
+    
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+    
+}
+
+nav a{
+
+    font-size: .9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 20px;
+    color: #003836;
+    height:25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+
+    text-decoration: none;
+}
+--------------- nav area end ------------------------ */
+
+
+main{
+    height: auto;
+
+}
+
+/* --------------- home page banner and form area start ------------------------ */
+
+.bannerhead{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 60px;
+    padding-top: 150px;
+    text-transform:capitalize;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(0,0,0, 0.3);
+}
+
+.searchhead {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border: 0px;
+}
+
+.searchbox{
+    
+    margin: auto;
+    margin-top: 50% !important;
+   
+}
+
+.searchbox input{
+    height: 40px;
+    width:40%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #000;
+    padding: 15px;
+    font-size: .6em !important;
+    box-shadow: 3px 3px rgba(0,0,0, 0.3);
+    
+}
+/* --------------- home page banner and form area end ------------------------ */
+
+
+/* --------------- property banner and form area start ------------------------ */
+
+#rentbanner{
+    
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/interiors/interior1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    
+    
+}
+
+#rentbanner .layer{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#renthead{
+    width: 100%;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    padding-top: 28px;
+    text-transform:capitalize;
+
+}
+
+#formfields{
+    width: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+#renthead h1{
+    
+    text-shadow: 2px 2px 2px rgba(0,0,0, 0.8); 
+    color: #fff;
+    line-height: 20px;
+	font-size: 32px !important;
+    font-weight: bold;
+}
+
+#renthead h3{
+    font-size: 20px !important;
+    font-weight: bold;
+    color:#D0A23E;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.8); 
+    line-height: 20px;
+    background-color: rgba(255,255,255, 0.8);
+    width: 40%;
+    line-height: 30px;
+    margin-left: auto;
+	margin-right: auto;
+
+}
+
+#formfields{
+    width: 100%;
+    text-align: center;
+}
+
+.rentform{
+
+    display: inline;
+    background-color: #fff !important;
+    width: 160px;
+    padding: 9px;
+    margin-top: 120px;
+    border-right: 1px solid #dfdfdf;
+	
+}
+
+
+.rentform input{
+
+   border: none;
+   width:140px;
+   color: #8f8f8f;
+
+}
+
+
+
+.rentform input[type=submit]{
+
+   width:70px;
+   height: 36px;
+   color: #fff;
+   background-color: #D0A23E;
+   font-weight: 500;
+   margin: -12px -10px !important;
+}
+#renterror{
+    color:#ff0000;
+    width: 30%;
+    padding:2px;
+    position: fixed;
+    margin: 0 auto;
+    font-size: .8em;
+    margin-top:-28px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+/* --------------- Property banner and form area end ------------------------ */
+
+/*---------------------Property float area starts----------------------*/
+
+
+.bx-wrapper {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+}
+.bx-prev{
+	
+	margin-left:-24px;
+}
+.bx-next{
+	
+	margin-right:-24px;
+}
+
+
+#rentfloat{
+    width:100%;
+    margin: 0 auto;
+	height:100px;
+	padding: 0 0px 0 20px;
+	margin-top: -40px;
+}
+
+.floatitem{
+    width: 23%;
+    margin-right: 20px;
+    padding: 20px;
+    color: #000;
+    font-size: 16px;
+    display:inline-block;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+
+}
+
+.floatitem #icon{}
+
+.floatitem span{
+   
+    width: 100%;
+    color: #002120;
+    display: block;
+    font-size:12px;
+    margin-top: 18px;
+    color: #c05a3b;
+
+}
+
+.floatitem a{
+    color: #c05a3b;
+    text-decoration: none;
+}
+
+.floatitem a:hover{
+    color: #c05a3b;
+    text-decoration: underline;
+}
+
+.floatitem i {
+  border: solid #c05a3b;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  
+}
+
+.floatitem .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+}
+
+
+
+/*-------------------property float area Ends--------------------------*/
+
+
+/*-------------------- Property Trend Area of Rent Page Start--------------*/
+
+#eventblock{
+
+	width:100%;
+	margin:auto;
+	display:inline-block;
+	padding-bottom:20px;
+	height: auto;
+}
+
+#leftevent { 
+	padding:0;
+}
+
+#leftevent div{ padding-bottom:20px;}
+
+#leftevent h3, #rightevent h3{
+	text-align:center;
+	line-height: 40px;
+	
+}
+
+.trow {
+	background-image: linear-gradient(to right, #e16fad , #ee5d60);
+	color:#fff;
+	padding:20px;
+
+}
+
+.trow span{
+	background-color:#fff;
+	color:#000;
+	padding:3px;
+	font-size:.8em;
+}
+
+.trow h2{
+	font-size:1.4em;
+	font-weight:600;
+	line-height:25px;
+}
+
+.trow .date{
+	background-color:transparent;
+	color:#fff;
+	padding:3px;
+	font-size:.9em;
+}
+
+.brow{
+	background-color:#fff;
+	padding:20px;
+	font-size:12px;
+	color: #595353;
+
+}
+
+.brow span{
+	color: #9a9a9a;
+}
+.brow h4{
+	
+	color:#6d6a6a;
+	font-size:1.4em;
+
+}
+
+.brow .post{
+	
+	color:#9a9a9a;
+	font-size:1em;
+
+}
+
+.brow input[type=button]{
+	
+	color:#fff;
+	font-size:1em;
+	background-color:#d8232c;
+	border:none;
+	display:block;
+	margin:20px auto;
+	padding:6px;
+	
+}
+
+.brow input[type=button]:hover{
+	
+	background-color:#000;
+	
+}
+
+#rightevent .news{
+	
+	width:100%;
+	background-color:#fff;
+	padding:18px;
+	margin-bottom:9px;
+	font-size:.9em;
+	font-weight:600;
+}
+
+.news img{
+	
+	float:left;
+	margin-right: 15px;
+	border-radius: 6px;
+
+}
+
+.news span{
+	
+	font-weight:normal;
+	font-size:.9em;
+
+}
+
+#pricetrend{
+	
+	width:98%;
+	margin:auto;
+	
+	display:block;
+	
+}
+
+#pricetrend h1{
+	text-align:center;
+	font-size:32px;
+	margin:20px 0 40px 0;
+
+}
+
+.ui-tabs{
+		margin-left:14px;
+		margin-bottom:20px !important;
+}
+
+.ui-widget-content{
+	border: none !important;
+    background: transparent !important;
+    color: none !important;
+}
+
+.ui-widget-header {
+    border: 0 !important;
+    background: transparent !important;
+    color: none !important;
+    font-weight: normal !important;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+	padding: 0 !important;
+	color:#656565 !important;
+}
+
+.ui-widget{
+ font-family: 'Open Sans', sans-serif;
+	
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+	
+	border:none !important;
+}
+
+.ui-tabs .ui-tabs-panel{
+	padding:0px !important;
+	width: 99%;
+}
+
+
+table{
+
+	width:100%;
+	margin:auto;
+	box-shadow: 7px 7px 7px #d4d4d4;
+}
+
+table tr{
+	height:45px;
+	border-bottom:1px solid #ededed;
+	background-color:#fff;
+	padding-left:60px !important;
+}
+
+table th{
+	background-color:#f7f7f7;
+}
+
+table td, table th{
+	padding:20px;
+}
+
+table a{
+	background-color:#ddd;
+	padding:6px;
+	font-size:.7em;
+	color:#585050;
+	text-decoration:none;
+	border-radius: 4px;
+}
+
+table a:hover{
+	background-color:#a7a6a6;
+	padding:6px;
+	font-size:.7em;
+	color:#585050;
+	text-decoration:none;
+}
+
+table tr:hover {
+    background: #f9f8f8 !important;
+}
+
+
+.ptype{
+	width:200px;
+	line-height:50px;
+	border:1px solid #eee;
+	background-color:#e2e2e2;
+	text-align:center;
+	box-shadow: 0px 0px 7px #d4d4d4;
+	display:inline-block;
+    font-weight: 600;
+}
+
+.ptype:hover{
+    background-color:#cecece;
+    font-weight: 600;
+    
+}
+
+.ptype a{
+    color: #656565;
+    text-decoration: none;
+}
+
+.success{
+	color: #60b921;
+	font-weight:600;
+}
+
+.decline{
+	color: #99341e;
+	font-weight:600;
+}
+
+.center{
+	text-align:center;
+}
+/*---------------------Property Trend Area of Rent Page Ends----------------*/
+
+/* --------------- Footer area start ------------------------ */
+
+footer{
+    
+    text-align: center;
+    color: #000;
+    
+}
+
+#footerwidget{
+    clear: both;
+    height: auto;
+    background-color: #013938;
+    padding: 0 20px;
+    text-align: left;
+    font-size: .9em;
+    height: auto;
+    margin: auto;
+	padding-bottom: 20px;
+}
+
+.widget{
+    position: relative;
+    width: 100%;
+    color: #e7e7e7;
+    font-weight: normal;
+    font-size: .9em;
+}
+
+.widget label{
+    width: 100%;
+   
+}
+
+.widget .widget-title{
+    
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.6em;
+    color: #fff;
+    text-align: left;
+
+}
+
+.widget input[type="text"]{
+    width: 100%;
+    height:30px;
+    border-radius: 7px;
+    border:1px solid #fff;
+    color: #000;
+    font-size: 1.3em;
+    padding: 8px;
+    
+}
+
+.widget input[type="submit"]{
+    width: 30%;
+    height:30px;
+    border-radius: 4px;
+    border:1px solid #c5952f;
+    color: #fff;
+    background-color: #D0A23E;
+    font-size: 1.3em;
+    
+    
+}
+
+.contact-info, .tweets-box{
+    padding: 0 0 10px 0;
+    font-size: 1.1em;
+}
+
+.contact-info strong{
+    color: #c19333;
+}
+
+.contact-info a, .contact-info a:hover, .tweets-box a, .tweets-box a:hover{
+    color: #D0A23E;
+}
+
+.list li, .tweets-box li{
+    list-style: none;
+    margin-left:-40px;
+    padding-top: 10px;
+}
+
+.list li .fa{
+    color: #D0A23E;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.share-links, .share-links a{
+    
+    font-size: 1.4em;
+    margin: 0 15px 0 0;
+    color: #e7e7e7;
+    
+}
+
+.share-links a:hover{
+    
+    text-decoration: none;
+    color: #D0A23E;
+    
+}
+
+.copy{
+    
+    width: 100%;
+    font-size: .8em;
+    font-family: arial;
+    font-weight: normal;
+    padding: 10px;
+    background-color: #002120;
+    color: #fff;
+    
+}
+
+/* --------------- Footer area end ------------------------ */
+
+
+@media only screen and (max-width:1024px){
+    
+    
+    /*---------------------Property float area starts----------------------*/
+    .floatitem{
+        width: 23%;
+        margin-right: 1%;
+        padding: 1%;
+        font-size: .9em;
+        height:auto;
+    }
+
+
+    /*----------------- search result for rent ------------------*/
+    
+    #searchbar{
+        border: 1px solid #000 !important;
+        overflow: visible;
+    }
+    #searchbar input{
+        border: 1px solid #000 !important;
+      
+    }
+    
+    .searchdiv{
+       width: 100%;
+       border: 1px solid #000;
+    }
+    
+ .searchdiv ul{
+       width: 100%;
+    }
+    
+     .searchdiv li{
+       width: 10%;
+    }
+    
+    /*-------------------property float area Ends--------------------------*/
+
+
+}
+
+
+@media only screen and (max-width:768px){
+   
+    #renthead h1{
+    
+        text-shadow: 3px 3px rgba(255,255,255, 0.8); 
+        color: #013938;
+        line-height: 20px;
+        font-size: 2em !important;
+        font-weight: bold;
+    }
+
+    #renthead h3{
+        font-size: 1.4em !important;
+        font-weight: bold;
+        width: 60%;
+        margin-left: auto;
+		margin-right: auto;
+		padding-top:50px;
+    }
+    
+   #rentfloat{
+        display: none;
+    }
+    
+    .ptype{
+        
+            width:30%;
+            line-height:3.2em;
+            border:1px solid #eee;
+            background-color:#e2e2e2;
+            text-align:center;
+            box-shadow: 0px 0px 7px #d4d4d4;
+            display:inline-block;
+            font-size:.9em;
+            font-weight: 600;
+        
+    }
+    
+    table td, table th{
+        padding:.6em;
+        font-size: .8em;
+    }
+    
+    table a{
+            background-color:#ddd;
+            padding:.6em;
+            font-size:.6em;
+            color:#585050;
+            text-decoration:none;
+            border-radius: 4px;
+    }
+
+    table a:hover{
+        background-color:#a7a6a6;
+        font-size:.6em;
+        padding:.6em;
+    }
+
+    
+    .rentform input{
+
+       border: none;
+       width:20%;
+       color: #8f8f8f;
+
+    }
+
+    .rentform input[type=submit]{
+       font-size: .8em;
+       width:10%;
+       height: 38px;
+       color: #fff;
+       background-color: #D0A23E;
+       margin: -6px -11px
+    }
+
+    
+    
+    
+}
